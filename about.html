@@ -6,13 +6,23 @@
     <title>Mayukha Palihena || About</title>
     <link
       rel="stylesheet"
-      href="./fontawesome-free-5.12.1-web/css/all.min.css"
-    />
+      href="./fontawesome-free-5.12.1-web/css/all.min.css" />
     <!-- fontawsome -->
-    <script src="https://kit.fontawesome.com/640b452266.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/640b452266.js"
+      crossorigin="anonymous"></script>
     <!-- end fontawesome custom -->
     <!-- css -->
     <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;700&display=swap"
+      rel="stylesheet">
+    <style>
+      * {
+        font-family: 'Lexend', sans-serif;
+      }
+  </style>
   </head>
 
   <body>
@@ -21,7 +31,8 @@
       <div class="nav-center">
         <!-- nav header -->
         <div class="nav-header">
-          <a href="index.html"><img src="./images/logo.svg" class="nav-logo" alt="" /></a>
+          <a href="index.html"><i class="fa-solid fa-code fa-2xl"
+              style="color: #e9b949;"></i></a>
           <button class="nav-btn" id="nav-btn">
             <i class="fas fa-bars"></i>
           </button>
@@ -50,12 +61,14 @@
         </ul>
         <ul class="social-icons">
           <li>
-            <a href="https://www.linkedin.com/in/mayukha-palihena-a13086224" class="social-icon">
+            <a href="https://www.linkedin.com/in/mayukha-palihena-a13086224"
+              class="social-icon">
               <i class="fab fa-linkedin"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.hackerrank.com/mpansuja007?hr_r=1" class="social-icon">
+            <a href="https://www.hackerrank.com/mpansuja007?hr_r=1"
+              class="social-icon">
               <i class="fa-brands fa-hackerrank"></i>
             </a>
           </li>
@@ -70,10 +83,11 @@
             </a>
           </li>
           <li>
-            <a href="https://web.facebook.com/profile.php?id=100009780108603" class="social-icon">
+            <a href="https://web.facebook.com/profile.php?id=100009780108603"
+              class="social-icon">
               <i class="fab fa-facebook"></i>
             </a>
-          </li> 
+          </li>
         </ul>
       </div>
     </aside>
@@ -91,18 +105,107 @@
         <div class="underline"></div>
       </div>
       <!--end of section title -->
-      <div class="section-center page-info">
+      <div class="section-center page-info" style="text-align: center;">
         <!-- about page -->
         <p>
-          Hello, I am Mayukha Palihena and I am a web developer. I live and work in
-          somewhere warm. I spend most of my day, experimenting with HTML, CSS
-          and JavaScript (and its endless list of frameworks). I enjoy coding
-          and the challenge of learning something new everyday. You can also
-          find me at youtube channel
-          <a href="https://www.youtube.com/channel/UCMZFwxv5l-XtKi693qMJptA"
-            >coding addict</a
-          >
+
+          I'm Mayukha Palihena, a passionate developer from Kiribathgoda, Sri
+          Lanka. My tech journey started with a love for video games, which led
+          me to explore game development using Godot and GDScript. During my
+          university years, I shifted my focus to web development, embodying
+          Aristotle's wisdom: "Excellence is never an accident." With meticulous
+          attention, sincere effort, and creativity, I pour my soul into every
+          project to deliver exceptional results. Driven by the desire to create
+          meaningful experiences, I blend technical expertise with innovation to
+          push boundaries. My goal is to craft remarkable solutions that exceed
+          expectations. Let's collaborate and bring our ideas to life. Together,
+          we can create something extraordinary.
         </p>
+
+        <div class="row">
+          <div class="column">
+            <div class="detail_cards">
+              <p><i class="fa fa-user" style="color: #E9BA4C;"></i></p>
+              <h3 style="color: #E9BA4C;">5+</h3>
+              <p style="color: #E9BA4C;">Partners</p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="detail_cards">
+              <p><i class="fa fa-check" style="color: #E9BA4C;"></i></p>
+              <h3 style="color: #E9BA4C;">10+</h3>
+              <p style="color: #E9BA4C;">Projects</p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="detail_cards">
+              <p><i class="fa fa-smile-o" style="color: #E9BA4C;"></i></p>
+              <h3 style="color: #E9BA4C;">15+</h3>
+              <p style="color: #E9BA4C;">Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="detail_cards">
+              <p><i class="fa fa-coffee" style="color: #E9BA4C;"></i></p>
+              <h3 style="color: #E9BA4C;">15+</h3>
+              <p style="color: #E9BA4C;">Meetings</p>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+        <a href="contact.html" style="color: white;" class="btn">contact me</a><br><br>
+        <a class="btn content-download button-main button-scheme"
+          style="color: white;" href="cv/Mayukha.pdf" download="Mayukha">Download
+          CV</a>
+
+        <style>
+          * {
+          box-sizing: border-box;
+        }
+
+        /* Float four columns side by side */
+        .column {
+          float: left;
+          width: 25%;
+          padding: 0 5px;
+        }
+
+        .row {margin: 0 -5px;}
+
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 10px;
+          }
+        }
+
+        /* Style the counter cards */
+        .detail_cards {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          padding: 16px;
+          text-align: center;
+          background-color: #ffff;
+          color: #E9BA4C;
+          border-radius: 15px;
+        }
+
+        .fa {
+          font-size:50px;
+        }
+        </style>
+
       </div>
     </section>
     <!-- ############## -->
@@ -110,17 +213,19 @@
     <!-- ############## -->
     <!-- ############## -->
 
-     <!-- footer -->
-     <footer class="footer">
+    <!-- footer -->
+    <footer class="footer">
       <!-- social icons -->
       <ul class="social-icons">
         <li>
-          <a href="https://www.linkedin.com/in/mayukha-palihena-a13086224" class="social-icon">
+          <a href="https://www.linkedin.com/in/mayukha-palihena-a13086224"
+            class="social-icon">
             <i class="fab fa-linkedin"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.hackerrank.com/mpansuja007?hr_r=1" class="social-icon">
+          <a href="https://www.hackerrank.com/mpansuja007?hr_r=1"
+            class="social-icon">
             <i class="fa-brands fa-hackerrank"></i>
           </a>
         </li>
@@ -135,15 +240,18 @@
           </a>
         </li>
         <li>
-          <a href="https://web.facebook.com/profile.php?id=100009780108603" class="social-icon">
+          <a href="https://web.facebook.com/profile.php?id=100009780108603"
+            class="social-icon">
             <i class="fab fa-facebook"></i>
           </a>
-        </li> 
+        </li>
       </ul>
 
-      <p>Guided By The Light Side <i class="fa-sharp fa-solid fa-jedi fa-beat fa-lg"></i> &copy; <span id="date"></span></p>
+      <p>Guided By The Light Side <i
+          class="fa-sharp fa-solid fa-jedi fa-beat fa-lg"></i> &copy; <span
+          id="date"></span></p>
     </footer>
-    
+
     <script src="./js/app.js"></script>
   </body>
 </html>
