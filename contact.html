@@ -13,6 +13,19 @@
     <script src="https://kit.fontawesome.com/640b452266.js"
       crossorigin="anonymous"></script>
     <!-- end fontawesome custom -->
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous">
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+    <!-- End Bootstrap -->
+
     <!-- css -->
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,31 +70,195 @@
       </div>
     </nav>
     <!-- end of navbar -->
-   <!-- sidebar -->
-   <aside class="sidebar" id="sidebar">
-    <div>
-      <button class="close-btn" id="close-btn">
-        <i class="fas fa-times"></i>
-      </button>
-      <!-- nav-links -->
-      <ul class="sidebar-links">
-        <li>
-          <a href="index.html">home</a>
-        </li>
-        <li>
-          <a href="about.html">about</a>
-        </li>
-        <li>
-          <a href="projects.html">projects</a>
-        </li>
-        <li>
-          <a href="contact.html">contact</a>
-        </li>
-      </ul>
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- nav-links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+        <!-- social icons -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.linkedin.com/in/mayukha-palihena-a13086224"
+              class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hackerrank.com/mpansuja007?hr_r=1"
+              class="social-icon">
+              <i class="fa-brands fa-hackerrank"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/LokoGod" class="social-icon">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/0710222" class="social-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://web.facebook.com/profile.php?id=100009780108603"
+              class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+
+    <section class="section single-page">
+      <!-- section title -->
+      <div class="section-title">
+        <h1>contact</h1>
+        <div class="underline"></div>
+      </div>
+      <!-- end of section title -->
+
+      <div class="section-center page-info">
+        <!-- contact page-->
+        <div class="row">
+          <div class="col-lg-6">
+            <!-- custom image -->
+            <img src="images/contact-us.svg" alt="Custom Image"
+              class="custom-image" style="height: 75%; width: 100%; border-radius: 15px;">
+
+            <!-- custom icons below the image -->
+            <div class="custom-icons">
+              <!-- social icons -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.linkedin.com/in/mayukha-palihena-a13086224"
+              class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hackerrank.com/mpansuja007?hr_r=1"
+              class="social-icon">
+              <i class="fa-brands fa-hackerrank"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/LokoGod" class="social-icon">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/0740686523" class="social-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://web.facebook.com/profile.php?id=100009780108603"
+              class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+              <!-- insert your custom icons here -->
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <!-- bootstrap card -->
+            <div class="card custom-card">
+              <div class="card-body">
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <label for="name" class="form-label">Your name</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Your e-mail</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="col-12">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject">
+                  </div>
+                  <div class="col-12">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message"
+                      style="height: 10rem;"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Send A Message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+  .custom-card {
+  border-radius: 15px;
+  width: 100%;
+  height: 30rem;
+  max-width: 45rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  .custom-card {
+    max-width: 70rem; /* Increase the max-width to make it wider */
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-card {
+    height: auto; /* Remove fixed height for mobile view */
+  }
+  
+  .custom-card .card-body {
+    padding-bottom: 2rem; /* Add some bottom padding to card body for button placement */
+  }
+  
+  .custom-card button[type="submit"] {
+    width: 100%; /* Set button width to 100% to fit within the card */
+  }
+}
+
+</style>
+
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+
+    <!-- footer -->
+    <footer class="footer">
       <!-- social icons -->
       <ul class="social-icons">
         <li>
-          <a href="https://www.linkedin.com/in/mayukha-palihena-a13086224"
+          <a
+            href="https://www.linkedin.com/in/mayukha-palihena-a13086224"
             class="social-icon">
             <i class="fab fa-linkedin"></i>
           </a>
@@ -103,76 +280,18 @@
           </a>
         </li>
         <li>
-          <a href="https://web.facebook.com/profile.php?id=100009780108603"
+          <a
+            href="https://web.facebook.com/profile.php?id=100009780108603"
             class="social-icon">
             <i class="fab fa-facebook"></i>
           </a>
         </li>
       </ul>
-    </div>
-  </aside>
-  <!-- end of sidebar -->
-    <!-- ############## -->
-    <!-- ############## -->
-    <!-- ############## -->
-    <!-- ############## -->
 
-    <section class="section single-page">
-      <!-- section title -->
-      <div class="section-title">
-        <h1>contact</h1>
-        <div class="underline"></div>
-      </div>
-      <!--end of section title -->
-      <div class="section-center page-info">
-        <!-- contact page-->
-        <p>
-          If you are looking to get ahold of me, you can send me an email at
-          <a href="mailto:email@email.com">@your_email</a>
-        </p>
-        <p>
-          You can also reach me on Twitter at
-          <a href="https://www.twitter.com">@your_social_media </a>
-        </p>
-      </div>
-    </section>
-    <!-- ############## -->
-    <!-- ############## -->
-    <!-- ############## -->
-    <!-- ############## -->
-
-     <!-- footer -->
-     <footer class="footer">
-      <!-- social icons -->
-      <ul class="social-icons">
-        <li>
-          <a href="https://www.linkedin.com/in/mayukha-palihena-a13086224" class="social-icon">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.hackerrank.com/mpansuja007?hr_r=1" class="social-icon">
-            <i class="fa-brands fa-hackerrank"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/LokoGod" class="social-icon">
-            <i class="fa-brands fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://wa.me/0710222" class="social-icon">
-            <i class="fa-brands fa-whatsapp"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://web.facebook.com/profile.php?id=100009780108603" class="social-icon">
-            <i class="fab fa-facebook"></i>
-          </a>
-        </li> 
-      </ul>
-
-      <p>Guided By The Light Side <i class="fa-sharp fa-solid fa-jedi fa-beat fa-lg"></i> &copy; <span id="date"></span></p>
+      <p>Guided By The Light Side <i
+          class="fa-sharp fa-solid fa-jedi fa-beat fa-lg"></i> &copy;
+        <span
+          id="date"></span></p>
     </footer>
 
     <script src="./js/app.js"></script>
