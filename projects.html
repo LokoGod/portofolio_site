@@ -13,6 +13,16 @@
     <script src="https://kit.fontawesome.com/640b452266.js"
       crossorigin="anonymous"></script>
     <!-- end fontawesome custom -->
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
     <!-- css -->
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -130,8 +140,10 @@
         <!-- Blog project -->
         <article class="single-project">
           <div class="project-container">
-            <img src="./images/Screenshot 2023-07-02 170952.png" alt="Blog project" />
-            <a class="project-icon">
+            <img src="./images/Screenshot 2023-07-02 170952.png"
+              alt="Blog project" />
+            <a type="button" class="project-icon" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
               <i class="fas fa-sheet-plastic"></i>
             </a>
           </div>
@@ -150,13 +162,35 @@
             </div>
           </div>
         </article>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1"
+          aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"
+                  data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- end of Blog project -->
 
         <!-- single project -->
         <article class="single-project">
           <div class="project-container">
             <img src="./images/project-1.jpeg" alt="single project" />
-            <a class="project-icon">
+            <a type="button" class="project-icon" data-bs-toggle="modal"
+              data-bs-target="#exampleModal2">
               <i class="fas fa-sheet-plastic"></i>
             </a>
           </div>
@@ -175,13 +209,35 @@
             </div>
           </div>
         </article>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1"
+          aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                ...exampleModal2
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"
+                  data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- end of single project -->
 
         <!-- single project -->
         <article class="single-project">
           <div class="project-container">
             <img src="./images/project-1.jpeg" alt="single project" />
-            <a class="project-icon">
+            <a type="button" class="project-icon" data-bs-toggle="modal"
+              data-bs-target="#exampleModal3">
               <i class="fas fa-sheet-plastic"></i>
             </a>
           </div>
@@ -200,13 +256,35 @@
             </div>
           </div>
         </article>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal3" tabindex="-1"
+          aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                ...exampleModal3
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"
+                  data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- end of single project -->
 
         <!-- php dashboard project -->
         <article class="single-project">
           <div class="project-container">
             <img src="./images/tt_dashbord.png" alt="single project" />
-            <a class="project-icon">
+            <a type="button" class="project-icon" data-bs-toggle="modal"
+              data-bs-target="#php_dashboard">
               <i class="fas fa-sheet-plastic"></i>
             </a>
           </div>
@@ -225,13 +303,35 @@
             </div>
           </div>
         </article>
+
+        <!-- Modal -->
+        <div class="modal fade" id="php_dashboard" tabindex="-1"
+          aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                This is php_dashboard
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"
+                  data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- end of php dashboard project -->
 
         <!-- GitHub User Finder project -->
         <article class="single-project">
           <div class="project-container">
             <img src="./images/github_user_finder.png" alt="single project" />
-            <a  class="project-icon">
+            <a type="button" class="project-icon" data-bs-toggle="modal"
+              data-bs-target="#github_user_finder">
               <i class="fas fa-sheet-plastic"></i>
             </a>
           </div>
@@ -250,6 +350,27 @@
             </div>
           </div>
         </article>
+
+        <!-- Modal -->
+        <div class="modal fade" id="github_user_finder" tabindex="-1"
+          aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                this is github
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"
+                  data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- end of GitHub User Finder project -->
 
       </div>
