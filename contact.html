@@ -40,6 +40,19 @@
       }
     </style>
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-4YXLDC5RR8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-4YXLDC5RR8");
+  </script>
   <body>
     <!-- navbar -->
     <nav class="nav" id="nav">
@@ -197,7 +210,8 @@
             <!-- bootstrap card -->
             <div class="card custom-card">
               <div class="card-body">
-                <form class="row g-3"
+                <form
+                  class="row g-3"
                   onsubmit="sendEmail(); reset(); return false;">
                   <div class="col-md-6">
                     <label for="name" class="form-label">Your name</label>
@@ -321,11 +335,15 @@
           Username: "pansujapalihena@gmail.com",
           Password: "81A6D817C8395D666E3771591838D75399E2",
           To: "mpansuja007@gmail.com",
-          From: document.getElementById('email').value,
-          Subject: document.getElementById('subject').value,
-          Body: "Name:" + document.getElementById('name').value
-           + "<br> E-mail:" + document.getElementById('email').value
-           + "<br> Message:" + document.getElementById('message').value,
+          From: document.getElementById("email").value,
+          Subject: document.getElementById("subject").value,
+          Body:
+            "Name:" +
+            document.getElementById("name").value +
+            "<br> E-mail:" +
+            document.getElementById("email").value +
+            "<br> Message:" +
+            document.getElementById("message").value,
         }).then((message) => alert("Message Recieved Successfully"));
       }
     </script>
